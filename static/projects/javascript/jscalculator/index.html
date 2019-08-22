@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Calculator</title>
+    <script type="text/javascript" src="jscalculator.js"></script>
+</head>
+
+<body>
+    <form name="formcalc">
+        Number 1: <input type="text" name="txtnum1">
+        <br> Number 2: <input type="text" name="txtnum2">
+        <br>
+        <select id="operation">
+				<option value="add">Add</option>
+				<option value="subtract">Subtract</option>
+				<option value="multiply">Multiply</option>
+				<option value="divide">Divide</option>
+			</select>
+        <input type="button" value="Calculate" onClick="calcValues()">
+        <input type="reset" value="Clear">
+        <br> Result: <input type="text" name="txtres" disabled>
+        <br>
+    </form>
+</body>
+
+</html>

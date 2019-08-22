@@ -1,0 +1,21 @@
+div.pdfwrapper {
+  max-width: 835px;
+  padding-bottom: 2em;
+}
+
+div.pdf {
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  height: 0;
+  padding-bottom: 128%;
+}
+
+iframe.pdf {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
