@@ -30,7 +30,7 @@ const Contact = props => (
       <section className="split">
         <section>
           <div className="contact-method">
-            <span className="icon alt fa-home"></span>
+            <span className="icon icon-home"></span>
             <span>
               330 Nord Ave
               <br />
@@ -40,25 +40,25 @@ const Contact = props => (
         </section>
         <section>
           <div className="contact-method">
-            <span className="icon alt fa-phone"></span>
+            <span className="icon icon-phone"></span>
             <span>(530) 632-1084</span>
           </div>
         </section>
         <section>
           <div className="contact-method">
-            <span className="icon alt fa-envelope"></span>
+            <span className="icon icon-mail-alt"></span>
             <a href="mailto:LWZearfoss@gmail.com">LWZearfoss@gmail.com</a>{" "}
           </div>
         </section>
         <section>
           <div className="contact-method">
-            <span className="icon alt fa-github"></span>
+            <span className="icon icon-github-circled"></span>
             <a href="https://github.com/LWZearfoss">github.com/LWZearfoss</a>
           </div>
         </section>
         <section>
           <div className="contact-method">
-            <span className="icon alt fa-linkedin"></span>
+            <span className="icon icon-linkedin"></span>
             <a href="https://www.linkedin.com/in/LWZearfoss">
               linkedin.com/in/LWZearfoss
             </a>
