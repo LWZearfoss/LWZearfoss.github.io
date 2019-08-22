@@ -8,23 +8,19 @@ class HomeIndex extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet
-          title="Luke Zearfoss"
-          htmlAttributes={{
-            lang: "en"
-          }}
-          meta={[
-            { name: "description", content: "This is the homepage" },
-            {
-              name: "keywords",
-              content: "luke, zearfoss, lwzearfoss, personal, website"
-            },
-            {
-              name: "google-site-verification",
-              content: "hmvowHDQUK0PYBguneedHvc6veafm99RbWHdS_IJu3A"
-            }
-          ]}
-        ></Helmet>
+        <Helmet>
+          <html lang="en" amp />
+          <title>Luke Zearfoss</title>
+          <meta name="description" content="My personal website" />
+          <meta
+            name="keywords"
+            content="luke, zearfoss, lwzearfoss, personal, website"
+          />
+          <meta
+            name="google-site-verification"
+            content="hmvowHDQUK0PYBguneedHvc6veafm99RbWHdS_IJu3A"
+          />
+        </Helmet>
 
         <Banner />
 
