@@ -10,6 +10,9 @@ class HomeIndex extends React.Component {
       <Layout>
         <Helmet
           title="Luke Zearfoss"
+          htmlAttributes={{
+            lang: "en"
+          }}
           meta={[
             { name: "description", content: "This is the homepage" },
             {
