@@ -9,7 +9,7 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet>
-          <html lang="en" amp />
+          <html lang="en" />
           <title>Luke Zearfoss</title>
           <meta name="description" content="My personal website" />
           <meta
