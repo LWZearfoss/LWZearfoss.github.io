@@ -10,7 +10,7 @@ class HomeIndex extends React.Component {
       <Layout>
         <Helmet>
           <html lang="en" />
-          <title>Luke Zearfoss</title>
+          <title>Luke W. Zearfoss</title>
           <meta name="description" content="My personal website" />
           <meta
             name="keywords"
